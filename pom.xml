@@ -15,5 +15,6 @@
         <module>springboot-kafka-api</module>
         <module>springboot-restful-api</module>
         <module>springboot-utils</module>
+        <module>springboot-design-patterns</module>
     </modules>
 </project>
