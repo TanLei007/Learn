@@ -7,6 +7,9 @@ package com.gl.springbootkafkaapi.constant;
  **/
 public final class KafkaConstant {
 
-    public static final String topics_1 = "554";
+    public static final String TOPICS_1 = "TOPICS_1";
+
+    public static final String GROUPID_1 = "groupId_1";
+    public static final String GROUPID_2 = "groupId_2";
 
 }

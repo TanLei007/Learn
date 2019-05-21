@@ -24,6 +24,6 @@ public class Test {
      */
     @PutMapping
     public void putKafka(){
-        kafkaTemplate.send(KafkaConstant.topics_1, "他呢里");
+        kafkaTemplate.send(KafkaConstant.TOPICS_1, "他呢里");
     }
 }
