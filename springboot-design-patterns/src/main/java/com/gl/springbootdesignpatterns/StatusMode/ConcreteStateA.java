@@ -4,9 +4,8 @@ package com.gl.springbootdesignpatterns.StatusMode;
 import javax.naming.Context;
 
 /**
- * @description: 具体状态
- * @author: TL
- * @create: 2019-05-21 09:03
+ * 当一个对象的行为取决于它的状态，并且他必须在运行时刻根据状态改变它的行为时
+ * 就可以考虑使用状态模式了
  **/
 public class ConcreteStateA extends State{
 
