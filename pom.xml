@@ -16,5 +16,6 @@
         <module>springboot-restful-api</module>
         <module>springboot-utils</module>
         <module>springboot-design-patterns</module>
+        <module>spring-boot-algorithm</module>
     </modules>
 </project>
