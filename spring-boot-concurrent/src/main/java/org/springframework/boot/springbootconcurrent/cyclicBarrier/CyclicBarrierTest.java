@@ -39,7 +39,7 @@ public class CyclicBarrierTest {
 		int threadCount = 5;
 		CyclicBarrier cyclicBarrier = new CyclicBarrier(threadCount);
 		
-		for (int i = 2; i < threadCount; i++) {
+		for (int i = 0; i < threadCount; i++) {
 			System.out.println("创建工作线程" + i);
 			Worker worker = new Worker(cyclicBarrier);
 			worker.start();
@@ -53,6 +53,8 @@ public class CyclicBarrierTest {
         }
 
         cyclicBarrier.reset();
+
+        System.out.println("我重置了。。。。。");
 
         for (int i = 0; i < threadCount; i++) {
             System.out.println("创建工作线程----" + (i + 5));
